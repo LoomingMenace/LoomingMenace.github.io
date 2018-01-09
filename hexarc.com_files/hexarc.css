@@ -1,0 +1,206 @@
+/*	Hexarc.css
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #ebf2ed;	/* H:135 S:3 B:95 */
+	background-repeat: no-repeat;
+	background-position: center 0px;
+
+	font: 11pt Nobile, arial, verdana;
+	color: #1c1f1c;					/* H:135 S:10 B:12 */
+	line-height: 1.2;
+}
+
+#titleSect {
+	background: radial-gradient(#62966f, #47664f);
+}
+
+#titleSectCenter {
+	max-width: 1480px;
+	height: 600px;
+	margin: 0 auto 40px auto;
+
+	background-image: url('Luminous.png');
+	background-repeat: no-repeat;
+	background-position-x: 670px;
+
+	color: #b3ffc6;					/* H:135 S:30 B:100 */
+}
+
+#titleSectBlock {
+	width: 660px;
+	margin: 0 0 0 15%;
+}
+
+#titleHeader {
+	width: 660px;
+	margin: 0 0 0 0;
+	padding: 4px 0;
+}
+
+#titleHeader img {
+	vertical-align: middle;
+}
+
+#titleHeader a {
+	height: 40px;
+	margin: 0 40px 0 0;
+
+	color: #b3ffc6;					/* H:135 S:30 B:100 */
+	text-decoration: none;
+}
+
+#titleHeader a:hover {
+	color: #f2fff5;					/* H:135 S:5 B:100 */
+	text-decoration: underline;
+}
+
+#titleTextBlock {
+	display: inline-block;
+	width: 330px;
+	margin: 200px 0 0 0;
+}
+
+#titleTextBlock h1 {
+	font-size: 48pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#titleTextBlock h2 {
+	font-size: 18pt;
+	font-weight: normal;
+	margin: 0 0 24pt 0;
+	padding: 0;
+}
+
+#titleTextBlock p {
+	font-size: 12pt;
+	line-height: 1.6;
+}
+
+#bodySectCenter {
+	max-width: 1280px;
+	margin: 0 auto 0 auto;
+}
+
+#footerSect {
+	clear: both;
+	margin: 0;
+	padding: 20px 0 0 0;
+
+	background-color: #1c1e1f;
+
+	color: #ebf1f2;
+}
+
+.centerBlock {
+	max-width: 1280px;
+	margin: 0 auto 0 auto;
+}
+
+.featureListBlock {
+	min-height: 400px;
+	margin: 0 0 40px 0;
+	padding: 40px;
+
+	background-color: #e1ede4;		/* H:135 S:5 B:93 */
+	border-radius: 4px;
+}
+
+.featureListBlock h1 {
+	margin: 40px 0 0 50%;
+
+	font-size: 48pt;
+	font-weight: normal;
+	color: #00bf30;			/* H:135 S:100 B:75 */
+}
+
+.featureBlock {
+	margin: 0 0 0 50%;
+	width: 520px;
+}
+
+.featureBlock h2 {
+	margin: 40px 0 0 0;
+
+	font-size: 24pt;
+	font-weight: normal;
+	line-height: 1.0;
+	color: #00bf2f;			/* H:135 S:100 B:75 */
+}
+
+.featureBlock p {
+	line-height: 1.6
+}
+
+.footerColumn {
+    display: inline-block;
+    width: 383px;
+	margin: 0 40px 0 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+.footerColumn h1 {
+	font-size: 14pt;
+	font-weight: normal;
+	color: #737f76;		/* H:135 S:10 B:50 */
+}
+
+.footerColumn a {
+	font-size: 10pt;
+	color: #598063;		/* H:135 S:30 B:50 */
+	text-decoration: none;
+}
+
+.footerColumn a:hover {
+	color: #86bf94;		/* H:135 S:30 B:75 */
+	text-decoration: underline;
+}
+
+.footerColumn123 {
+    padding: 24px 120px 8px 120px;
+    text-align: center;
+
+	font-size: 8pt;
+	color: #737c7f;		/* H:135 S:10 B:50 */
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Nobile';
+    src: url('nobile-regular.woff') format('woff'),
+         url('nobile-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nobile';
+    src: url('nobile-bold.woff') format('woff'),
+         url('nobile-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nobile';
+    src: url('nobile-italic.woff') format('woff'),
+         url('nobile-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nobile';
+    src: url('nobile-bolditalic.woff') format('woff'),
+         url('nobile-bolditalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
